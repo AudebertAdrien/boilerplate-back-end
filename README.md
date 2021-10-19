@@ -4,12 +4,6 @@
 
 ## Description
 
-- See front end for more information  
-  https://github.com/AudebertAdrien/e-commerce-client
-
-- Github link
-  https://github.com/AudebertAdrien/e-commerce-server
-
 ### Packages
 
 - [Cors](https://www.npmjs.com/package/cors)  
@@ -18,9 +12,3 @@
   Dotenv loads environment variables from a .env file into process.env
 - [Express](https://expressjs.com/)  
   Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-- [MongoDB](https://www.mongodb.com/)  
-  MongoDB is a document-oriented NoSQL database used for high volume data storage. Instead of using tables and rows as in the traditional relational databases, MongoDB makes use of collections and documents. Documents consist of key-value pairs which are the basic unit of data in MongoDB. Collections contain sets of documents and function which is the equivalent of relational database tables.
-
-### Heroku configuration
-
-Buildpack : [MongoDb](https://github.com/o5r/heroku-buildpack-mongo)
