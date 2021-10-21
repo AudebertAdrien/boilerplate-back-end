@@ -1,4 +1,5 @@
 const express = require('express');
+
 const app = express();
 const cors = require('cors');
 
@@ -12,7 +13,7 @@ app.use(cors(corsOptions));
 
 app.get('/', (req, res) => {
   console.log('HOME');
-  res.status(200).json(datas);
+  res.status(200).json();
 });
 
 module.exports = app;
