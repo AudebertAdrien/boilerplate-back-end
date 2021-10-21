@@ -9,7 +9,7 @@
     ],
     "plugins": ["prettier"],
     "parserOptions": {
-        "ecmaVersion": 2021
+        "ecmaVersion": "latest"
     },
     "rules": {
         "prettier/prettier": "error",
